@@ -11,6 +11,7 @@ Vue.use(VueRouter)
 
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'boxicons'
 
 Vue.config.productionTip = false
 

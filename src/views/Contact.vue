@@ -2,38 +2,38 @@
   <div id="app" class="container mt-3 mb-3 p-0">
 
     <div class="row">
-      <card
+      <Card
         job="Senior Product"
         lang="Designer"
         country="Singapore"
-        company="Reddit">
-      </card>
-      <card
+        company="reddit">
+      </Card>
+      <Card
         job="Junior Product"
         lang="Designer"
         country="Singapore"
-        company="Apple">
-      </card>
-      <card
+        company="apple">
+      </Card>
+      <Card
         job="Software Architect"
         lang="Java"
         country="USA"
-        company="Microsoft">
-      </card>
-      <card
+        company="microsoft">
+      </Card>
+      <Card
         lang="C++"
-        company="Amazon">
-      </card>
-      <card
+        company="amazon">
+      </Card>
+      <Card
         lang="PHP"
         country="Mexico"
-        company="Dribbble">
-      </card>
-      <card
+        company="dribbble">
+      </Card>
+      <Card
         job="Software Architect"
         country="Colombia"
-        company="Mailchimp">
-      </card>
+        company="mailchimp">
+      </Card>
     </div>
 
   </div>
