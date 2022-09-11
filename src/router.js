@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Vue from "vue";
