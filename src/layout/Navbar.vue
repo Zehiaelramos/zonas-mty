@@ -1,6 +1,6 @@
 <template>
 
-  <div id="nav">
+  <nav>
     <nav class="container navbar navbar-expand-lg navbar-light py-2">
       <a class="navbar-brand" href="/">
         <img src="eiimt.png" width="60" height="72" class="d-inline-block">
@@ -16,7 +16,7 @@
         <i class="bi-key"></i>&nbsp;Login
       </router-link>
     </nav>
-  </div>
+  </nav>
 
 </template>
 
