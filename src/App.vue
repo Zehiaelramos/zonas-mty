@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <navbar-wrap/>
+    <navbar/>
 
     <!--
     <img alt="Vue logo" src="./assets/labnl.png" width="512px">
@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import NavbarWrap from './layout/NavbarWrap.vue'
+import Navbar from './layout/Navbar.vue'
 
 export default {
   name: 'App',
   components: {
-    NavbarWrap,
+    Navbar,
   }
 }
 </script>
