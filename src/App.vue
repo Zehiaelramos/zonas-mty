@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <navbar/>
+    <Navbar/>
 
     <!--
     <img alt="Vue logo" src="./assets/labnl.png" width="512px">
@@ -12,16 +12,20 @@
       :key="state ? $route.fullPath : [$route.fullPath, value]"
     />
 
+    <Footer/>
+
   </div>
 </template>
 
 <script>
 import Navbar from './layout/Navbar.vue'
+import Footer from './layout/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Navbar,
+    Footer,
   }
 }
 </script>
