@@ -1,11 +1,21 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+/* eslint-disable */
+
+import router from "./router"
+
+import VueRouter from 'vue-router'
+
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 Vue.config.productionTip = false
 
-new Vue({
-  render: h => h(App),
+var vm = new Vue({
+  data: {
+    message: 'Hello Vue!'
+  },
+  router,
+  render: h => h(App)
 }).$mount('#app')
