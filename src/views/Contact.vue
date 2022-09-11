@@ -1,5 +1,6 @@
 <template>
-  <div class="container mt-3 mb-3 p-0">
+  <div id="app" class="container mt-3 mb-3 p-0">
+
     <div class="row">
       <card
         job="Senior Product"
@@ -34,6 +35,7 @@
         company="Mailchimp">
       </card>
     </div>
+
   </div>
 </template>
 
