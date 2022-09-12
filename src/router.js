@@ -10,6 +10,7 @@ Vue.use(VueRouter)
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Contact from "./views/Contact.vue";
+import Maps from "./views/Maps.vue";
 
 const routes = [
   {
@@ -29,6 +30,11 @@ const routes = [
     meta: {
       reload: true,
     }
+  },
+  {
+    path: "/maps",
+    name: "maps",
+    component: Maps
   },
 ];
 

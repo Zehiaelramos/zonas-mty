@@ -10,6 +10,7 @@
           <router-link to="/" class="nav-item nav-link">Home</router-link>
           <router-link to="/about" class="nav-item nav-link">About</router-link>
           <router-link to="/contact" class="nav-link">Contact</router-link>
+          <router-link to="/maps" class="nav-link">Maps</router-link>
         </div>
       </div>
       <router-link to="login" class="btn btn-outline-secondary float-end">
